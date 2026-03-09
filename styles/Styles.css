@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-image: url("../images/coolback.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+main {
+    width: 836px;
+    margin: auto;
+    background-color: white;
+}
+
+/* Header grid */
+.top-header {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    align-items: center;
+    background-color: #0B1C2D;
+    color: white;
+    padding: 1rem;
+    height: 100px ; 
+    background-color: #3FA9F5;
+    width: 868px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+.top-header img {
+    width: 120px;
+}
+
+/* Nav circles*/
+
+nav {
+    background-color: #0B1C2D;
+    padding: 1rem 0;
+    width: 900px;
+    margin: auto;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2rem 0;
+    margin: 0;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3FA9F5; /* electric blue */
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content*/
+.card {
+    background-color: #4DEEFF;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.card img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+/* footer */
+footer {
+    background-color: #0B1C2D;
+    color: white;
+    /*background-color: white;*/
+    text-align: center;
+    padding: 1rem;
+    width: 869px;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.top-header h1 {
+    text-align: center;
+}
+
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+thead {
+    background-color: #3FA9F5;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #0B1C2D;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #e6f9ff;
+}
